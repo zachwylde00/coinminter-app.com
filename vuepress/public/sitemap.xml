@@ -14,39 +14,39 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
      <changefreq>weekly</changefreq> 
      <priority>1.00</priority> 
      </url> 
-   <url> <loc>https://coinminter-app.com/erc20-generator/</loc> 
+   <url> <loc>https://www.coinminter-app.com/erc20-generator/</loc> 
      <changefreq>weekly</changefreq> 
      <priority>1.00</priority> 
      </url>
-   <url> <loc>https://coinminter-app.com/bep20-generator/</loc> 
+   <url> <loc>https://www.coinminter-app.com/bep20-generator/</loc> 
      <changefreq>weekly</changefreq> 
      <priority>1.00</priority> 
      </url>
-   <url> <loc>https://coinminter-app.com/watch-token/</loc> 
+   <url> <loc>https://www.coinminter-app.com/watch-token/</loc> 
      <changefreq>weekly</changefreq> 
      <priority>1.00</priority> 
      </url> 
-   <url> <loc>https://coinminter-app.com/ethereum-badge/</loc> 
+   <url> <loc>https://www.coinminter-app.com/ethereum-badge/</loc> 
      <changefreq>weekly</changefreq> 
      <priority>1.00</priority> 
      </url> 
-   <url> <loc>https://coinminter-app.com/eth-token-recover/</loc> 
+   <url> <loc>https://www.coinminter-app.com/eth-token-recover/</loc> 
      <changefreq>weekly</changefreq>
      <priority>1.00</priority> 
      </url> 
-   <url> <loc>https://coinminter-app.com/erc1363-payable-token/</loc> 
+   <url> <loc>https://www.coinminter-app.com/erc1363-payable-token/</loc> 
      <changefreq>weekly</changefreq> 
      <priority>1.00</priority> 
      </url> 
-   <url> <loc>https://coinminter-app.com/solidity-linked-list/</loc>
+   <url> <loc>https://www.coinminter-app.com/solidity-linked-list/</loc>
      <changefreq>weekly</changefreq>
      <priority>1.00</priority> 
      </url> 
-   <url> <loc>https://coinminter-app.com/solidity-starter-kit/</loc> 
+   <url> <loc>https://www.coinminter-app.com/solidity-starter-kit/</loc> 
      <changefreq>weekly</changefreq> 
      <priority>1.00</priority> 
      </url> 
-   <url> <loc>https://coinminter-app.com/coinmarketcap-php/</loc>
+   <url> <loc>https://www.coinminter-app.com/coinmarketcap-php/</loc>
      <changefreq>weekly</changefreq> 
      <priority>1.00</priority> 
      </url> 
