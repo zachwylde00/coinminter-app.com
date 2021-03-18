@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+
+Sitemap: https://zachwylde00/www.coinminter-app.com.github.io/sitemap.xml
