@@ -18,7 +18,6 @@ jobs:
       with:
         java-version: 1.8
     - name: Set up .gradlew
-      run: _/gradlew build
     - name: Complete build
       run: continue_on_error 
     - name: Grant  execute permission for gradlew
