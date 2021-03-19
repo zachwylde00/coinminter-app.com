@@ -18,7 +18,12 @@ Jobs:
    name: Compiler_
    name: transaction debugger_
    name: VIM_
-  Activities: 
+ wget:"https://ethereum.mainnetwork"
+ wget:"https://remixIDE.ethereum.org"
+ wget:"https://metamask.io"
+ wget:"https://myetherwallet/user/0/application_wallet"
+ wget:"https://etherscan.io"
+ Activities: 
     <.ci worker Settings="Automated_Self-Tasking_Continuos-Integration_Artificial-Intelligence_with_application-interfacing_and_verbose/highly_adaptive_communication_capabilities_via_constantly kept Operating memory with retained updates, developments, tasks completed, previous activities, previous communications, any and all activities, interfacing, configurations, pathways, regions, and ecosystems/Operating Systems/>
     
 # <DefinedCompatableEnvironments and OperatingSystems="      Linux,32bit,64bit,ARCH64,Android.OS, Mac OS ,Windows OS,CommandLine_and_stores_every_known_command/command_cheatsheet/multiFunction_Commands/can_configure_any_command_combination_to_complete_jobs"/>
