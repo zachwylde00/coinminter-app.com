@@ -18,7 +18,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Create and Name repository files with update to repository if required for succesful build
-      run: chmod +r,+w,+X gradlew
+      run: chmod +r,+w,+x gradlew
     - name: Continue build on exitcode=any exitcode
       id: continue-on-error
       run: ./write_gradlew_files/filenames_with_update_to_directory
