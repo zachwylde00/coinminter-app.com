@@ -1,0 +1,91 @@
+https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x6c6ee5e31d828de241282b9606c8e98ea48526e2&address=0xC3667b4eCf12EDE52f73646e18542cD54D4dDA54&tag=latest&apikey=53YXGAP2DKCH4AY4JKDMDDWEVFP7BXKGTP 
+
+https://api.etherscan.io/api?module=proxy&action=eth_getStorageAt&address=0xC3667b4eCf12EDE52f73646e18542cD54D4dDA54&position=0xe010c87fb2c3d81d72940d4d5fc72e9345289adb?value=balance_less_fees=latest&apikey=53YXGAP2DKCH4AY4JKDMDDWEVFP7BXKGTP
+https://api.etherscan.io/api?module=proxy&action=holo_getStorageAt&contractaddress_sender=0x6c6ee5e31d828de241282b9606c8e98ea48526e2&balances/receiver=0xaef2d52704b4af5a1d75308c59529a5a404c7467&apikey=53YXGAP2DKCH4AY4JKDMDDWEVFP7BXKGTP 
+
+jsonrpc":"2.0","id":1,"result":"0x00000000000000000000000000000000000000000000000000601ac808a3bc01 
+
+Checkout@v3
+#blockdaemonAPIkey:bd1aVCtlJ0YbL7wFhW6wd8EIDtbKPaw6reZd0iuMdUMyTdM
+#npm install erc-payable-token 
+
+#Usage
+#uses smart contract compiler=solidity,yul,remixd,linux64byte,shell,xda=compiler types.
+Jobs:
+  Uses: Resources. 
+   name: ethereum_  
+   name: solidity smartContract_             
+   name: Compiler_
+   name: transaction debugger_
+   name: VIM_
+  Activities: 
+    <.ci worker Settings="Automated_Self-Tasking_Continuos-Integration_Artificial-Intelligence_with_application-interfacing_and_verbose/highly_adaptive_communication_capabilities_via_constantly kept Operating memory with retained updates, developments, tasks completed, previous activities, previous communications, any and all activities, interfacing, configurations, pathways, regions, and ecosystems/Operating Systems/>
+    
+# <DefinedCompatableEnvironments and OperatingSystems="      Linux,32bit,64bit,ARCH64,Android.OS, Mac OS ,Windows OS,CommandLine_and_stores_every_known_command/command_cheatsheet/multiFunction_Commands/can_configure_any_command_combination_to_complete_jobs"/>
+   source code verifier_
+# contract begin
+pragma solidity ^0.7.0; 
+import "erc-payable-token/
+              contracts/
+              token/
+              ERC1363/
+              ERC1363.sol"; 
+contract MyToken is 
+"ERC1363": true,  
+"TokenRecover.sol": true,
+{ 
+constructor 
+   (string_memory"Name":"",string_memory"Symbol":"")
+
+# ERC1363(name, symbol)
+{
+}
+// "name":"USD Digital Fifty Cents",
+//   "symbol":"USDF",
+//   "precision":"22",
+//   "total_tokens_can_exist":"21000000"
+//     "Is mintable": true,
+//     "Is BEP20 compatible": true,
+//     "Is ownable": true,
+//      "Has set value": false,
+//    "Minter": "0xe010c87fb2c3d81d72940d4d5fc72e9345289adb",
+//     "Owner": "0xE010c87FB2c3d81D72940D4D5Fc72E9345289ADB",
+//      "Total balance of tokens currently": "onCommit_file_to_github_repo(minter_mint(100000USDF)_TO(OWNER)
+} 
+
+IERC1363Receiver.sol
+# (opens new window) 
+
+# Interface for any contract that wants to support :
+'transferAndCall'or,
+ 'transferFromAndCall'
+from ERC1363 token contracts. 
+
+# interface IERC1363Receiver 
+{ 
+  function onTransferReceived
+   (address operator, address sender, uint256 amount, bytes calldata data) external returns (bytes4); 
+} 
+
+# IERC1363Spender 
+
+# IERC1363Spender.sol(opens new window) 
+
+# Interface for any contract that wants to support approveAndCall from ERC1363 token contracts. 
+
+# interface IERC1363Spender 
+{ function onApprovalReceived(address sender, uint256 amount, bytes calldata data) external returns (bytes4); } 
+
+# ERC1363Payable 
+
+# ERC1363Payable.sol(opens new window) 
+
+# Implementation proposal of a contract that wants to accept ERC1363 payments. # It intercepts what is the ERC1363 token desired for payments and throws if another is sent. 
+
+# It emits a TokensReceived event to notify the transfer received by the contract. 
+
+# It also implements a transferReceived function that can be overridden to make your stuffs within your contract after a onTransferReceived. 
+
+# It emits a TokensApproved event to notify the approval received by the contract. 
+
+# It also implements a approvalReceived function that can be overridden to make your stuffs within your contract after a onApprovalReceived.
