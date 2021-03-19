@@ -18,7 +18,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Set up .gradlew
-      run: chmod urwx+X *, --recursive
+      run: chmod u+X *, --recursive
     - name: Complete build
       run: continue_on_error 
     - name: Grant  execute permission for gradlew
