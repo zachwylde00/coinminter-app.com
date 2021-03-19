@@ -20,7 +20,7 @@ jobs:
     - name: Create and Name repository files with update to repository if required for succesful build
       run: chmod +x create
     - name: Continue build on exitcode 127
-      continue-on-error: 127
+      id: continue-on-error
       run: .android.ci/write_gradlew_files/filenames_with_update_to_directory
     - name: Grant  execute permission for gradlew
       run: chmod +x gradlew
