@@ -19,7 +19,7 @@ jobs:
         java-version: 1.8
     - name: Set up .gradlew
       run: chmod +w .gradlew, --recursive
-      id: ignore error exitcode1
+      id: ignore error exitcode'1'
     - name: Grant  execute permission for gradlew
       run: chmod +rwx .github/
     - name: Build with Gradle
