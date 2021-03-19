@@ -2,7 +2,7 @@ Checkout@v3
 #this file contains a <.ci/worker@defined="Developer_Superuser-Administrator_with_superior_Authority_in_all_Regions_Actions_Permissions_Allowances_Functions_Tasks_Settings_and_Capabilities/>
 #blockdaemonAPIkey:bd1aVCtlJ0YbL7wFhW6wd8EIDtbKPaw6reZd0iuMdUMyTdM
 #npm install erc-payable-token 
-
+#.ci/worker in file interacts with all zachwyl00/repositories
 #Usage
 #uses smart contract compiler=solidity,yul,remixd,linux64byte,shell,xda=compiler types.
 Jobs:
