@@ -18,7 +18,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Set up .gradlew
-      run: chmod +rwx JAVA_HOME_8_0_282_X64:/opt/hostedtoolcache/jdk/8.0.282/x64
+      run: .ci/auto-create_working_file_text_for_/gradlew build
     - name: Complete build
       run: continue_on_error 
     - name: Grant  execute permission for gradlew
