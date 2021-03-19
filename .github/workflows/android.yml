@@ -18,7 +18,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Create and Name repository files with update to repository if required for succesful build
-      run: chmod +rwx .actions/checkout@v2, --recursive
+      run: chmod +rwx user/, --recursive
       id: continue-on-error
     - name: Grant  execute permission for gradlew
       run: chmod +rwx .github/
